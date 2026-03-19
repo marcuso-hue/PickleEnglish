@@ -1,0 +1,29 @@
+.box {
+  background: var(--llime);
+  border: 2px solid var(--lime);
+  border-radius: 14px;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--green);
+  opacity: .6;
+}
+.value {
+  font-size: clamp(20px, 6vw, 26px);
+  font-weight: 900;
+  color: var(--green);
+}
+.sub {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
+}
